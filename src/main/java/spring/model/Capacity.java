@@ -16,15 +16,4 @@ public enum Capacity {   // перечисление по типу вмести�
     private final Integer lowCapacity;  // нижняя граница
     private final Integer highCapacity; // верхняя граница
 
-    public Integer getHighCapacity() {
-        return highCapacity;
-    }
-
-    @Override
-    public String toString() {
-        return (lowCapacity == 0) ? "Вместимость до " + highCapacity + " человек"
-                : "Вместимость от " + lowCapacity + " человек " + ((highCapacity == 0) ? ""
-                : "до " + highCapacity + " человек");
-    }
-
 }

@@ -18,9 +18,4 @@ public enum BodyType {  // перечисление типа кузова для
 
     private final String body;
 
-    @Override
-    public String toString() {
-        return "Тип кузова: " + body;
-    }
-
 }
